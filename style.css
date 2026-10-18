@@ -1,0 +1,59 @@
+.repository-item {
+  white-space: pre-line;
+  position: relative;
+  background-color: #e27beb;
+  padding: 10px 60px 10px 15px;
+  border: 1px solid black;
+  list-style: none;
+  font-size: 20px;
+  line-height: 1.4;
+}
+.remove-button {
+  position: absolute;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+  background: transparent;
+  border: none;
+  color: red;
+  font-size: 40px;
+  cursor: pointer;
+}
+
+#repositories {
+  margin: 40px 0 0;
+  padding: 0;
+}
+
+#suggestions {
+    margin: 0;
+    padding: 0;
+}
+
+#suggestions li {
+  background-color: #e3e3e3;
+  border: 2px solid black;
+  list-style: none;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 24px;
+}
+
+#suggestions li:hover {
+  background-color: #65cdf9;
+}
+
+#search {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 32px;
+    padding: 10px 12px;
+    border: none;
+    background-color: white;
+}
+.container {
+    max-width:  500px;
+    margin: 40px auto;
+    padding: 40px;
+    background-color: #c4c4c4;
+}
